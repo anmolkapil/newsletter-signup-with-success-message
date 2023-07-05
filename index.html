@@ -28,8 +28,8 @@
 <body class="bg-charcoal-grey">
 
   <!-- Sign-up form start -->
-  <div class="md:flex md:h-[100vh] md:items-center">
-    <div id="main"
+  <div id="main" class="flex md:h-[100vh] md:items-center">
+    <div
       class="md:p-5 md:mx-auto md:w-[50rem] bg-white md:rounded-3xl flex flex-col md:items-center md:flex-row-reverse font-[Roboto-Regular] text-dark-slate-grey">
       <div class="md:rounded-xl md:basis-0 md:grow">
         <img class="md:hidden h-full w-full object-cover md:rounded-xl"
@@ -74,14 +74,17 @@
         </form>
       </div>
     </div>
+  </div>
 
 
-    <!-- Sign-up form end -->
+  <!-- Sign-up form end -->
 
-    <!-- Success message start -->
-    <div id="msg" class="hidden md:mx-auto">
+  <!-- Success message start -->
+
+  <div id="msg" class="hidden md:mx-auto">
+    <div class="h-[100vh] md:flex md:items-center">
       <div
-        class="bg-white h-[100vh] md:h-auto md:w-[30rem] md:p-10 md:rounded-3xl mx-auto my-auto text-dark-slate-grey p-5 flex flex-col justify-between">
+        class="bg-white h-full md:h-auto md:w-[30rem] md:p-10 md:rounded-3xl mx-auto text-dark-slate-grey p-5 flex flex-col justify-between">
         <div class="mt-20 md:mt-0">
           <img class="mb-10" src="./assets/images/icon-success.svg" alt="success icon">
           <h1 class="font-['Roboto-Bold'] text-5xl my-5"> Thanks for subscribing!</h1>
@@ -95,9 +98,9 @@
           class="shadow-lg hover:shadow-tomato/40 mt-5 w-full bg-dark-slate-grey text-white font-[Roboto-Bold] rounded-lg px-12 py-4 hover:bg-tomato active:bg-rose-600 transition-colors ease-in-out duration-200">
           Dismiss message</button>
       </div>
-
     </div>
   </div>
+
 
   <!-- Success message end -->
 
