@@ -2746,6 +2746,10 @@ video {
     align-items: stretch;
   }
 
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:rounded-xl {
     border-radius: 0.75rem;
   }
